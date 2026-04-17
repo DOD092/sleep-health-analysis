@@ -1,0 +1,167 @@
+{
+    "SVM-based": {
+        "Insomnia": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8,
+            "f1-score": 0.8275862068965517,
+            "support": 15.0
+        },
+        "Sleep Apnea": {
+            "precision": 0.7777777777777778,
+            "recall": 0.875,
+            "f1-score": 0.8235294117647058,
+            "support": 16.0
+        },
+        "NaN": {
+            "precision": 0.9767441860465116,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9655172413793104,
+            "support": 44.0
+        },
+        "accuracy": 0.9066666666666666,
+        "macro avg": {
+            "precision": 0.8705549403223821,
+            "recall": 0.8765151515151516,
+            "f1-score": 0.872210953346856,
+            "support": 75.0
+        },
+        "weighted avg": {
+            "precision": 0.9103777531684507,
+            "recall": 0.9066666666666666,
+            "f1-score": 0.9076402974983097,
+            "support": 75.0
+        }
+    },
+    "KNN-based": {
+        "Insomnia": {
+            "precision": 0.8125,
+            "recall": 0.8666666666666667,
+            "f1-score": 0.8387096774193549,
+            "support": 15.0
+        },
+        "Sleep Apnea": {
+            "precision": 0.8125,
+            "recall": 0.8125,
+            "f1-score": 0.8125,
+            "support": 16.0
+        },
+        "NaN": {
+            "precision": 0.9767441860465116,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9655172413793104,
+            "support": 44.0
+        },
+        "accuracy": 0.9066666666666666,
+        "macro avg": {
+            "precision": 0.8672480620155039,
+            "recall": 0.8779040404040405,
+            "f1-score": 0.8722423062662218,
+            "support": 75.0
+        },
+        "weighted avg": {
+            "precision": 0.9088565891472868,
+            "recall": 0.9066666666666666,
+            "f1-score": 0.9075120504263998,
+            "support": 75.0
+        }
+    },
+    "DT-based": {
+        "Insomnia": {
+            "precision": 0.8235294117647058,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.875,
+            "support": 15.0
+        },
+        "Sleep Apnea": {
+            "precision": 0.8666666666666667,
+            "recall": 0.8125,
+            "f1-score": 0.8387096774193549,
+            "support": 16.0
+        },
+        "NaN": {
+            "precision": 0.9767441860465116,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9655172413793104,
+            "support": 44.0
+        },
+        "accuracy": 0.92,
+        "macro avg": {
+            "precision": 0.8889800881592947,
+            "recall": 0.9001262626262626,
+            "f1-score": 0.8930756395995552,
+            "support": 75.0
+        },
+        "weighted avg": {
+            "precision": 0.9226180270557837,
+            "recall": 0.92,
+            "f1-score": 0.9203615127919913,
+            "support": 75.0
+        }
+    },
+    "RF-based": {
+        "Insomnia": {
+            "precision": 0.8666666666666667,
+            "recall": 0.8666666666666667,
+            "f1-score": 0.8666666666666667,
+            "support": 15.0
+        },
+        "Sleep Apnea": {
+            "precision": 0.8235294117647058,
+            "recall": 0.875,
+            "f1-score": 0.8484848484848485,
+            "support": 16.0
+        },
+        "NaN": {
+            "precision": 0.9767441860465116,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9655172413793104,
+            "support": 44.0
+        },
+        "accuracy": 0.92,
+        "macro avg": {
+            "precision": 0.8889800881592947,
+            "recall": 0.8987373737373737,
+            "f1-score": 0.8935562521769419,
+            "support": 75.0
+        },
+        "weighted avg": {
+            "precision": 0.9220428636570908,
+            "recall": 0.92,
+            "f1-score": 0.9207802159526299,
+            "support": 75.0
+        }
+    },
+    "XGBoost": {
+        "Insomnia": {
+            "precision": 0.875,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.9032258064516129,
+            "support": 15.0
+        },
+        "Sleep Apnea": {
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1-score": 0.875,
+            "support": 16.0
+        },
+        "NaN": {
+            "precision": 0.9767441860465116,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9655172413793104,
+            "support": 44.0
+        },
+        "accuracy": 0.9333333333333333,
+        "macro avg": {
+            "precision": 0.9089147286821705,
+            "recall": 0.9209595959595959,
+            "f1-score": 0.9145810159436412,
+            "support": 75.0
+        },
+        "weighted avg": {
+            "precision": 0.9346899224806202,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.9337486095661848,
+            "support": 75.0
+        }
+    }
+}
