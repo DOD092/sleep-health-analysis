@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.log
+.ipynb_checkpoints/
+dataset/raw/
+dataset/output/
+.vscode/
+.DS_Store
+Thumbs.db
